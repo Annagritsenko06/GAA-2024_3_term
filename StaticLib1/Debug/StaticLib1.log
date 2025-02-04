@@ -1,0 +1,25 @@
+﻿Сборка начата 14.12.2024 14:03:16.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\admin\Documents\уник\3 СЕМ\КПО\курсач\курсач_заново\курсач супер новый\GAA-2024\StaticLib1\StaticLib1.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "Debug\StaticLib1.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\StaticLib1.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"C:\Users\admin\Documents\уник\3 СЕМ\КПО\курсач\курсач_заново\курсач супер новый\GAA-2024\Debug\StaticLib1.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt StaticLib1.cpp
+         StaticLib1.cpp
+       Lib:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX86\x86\Lib.exe /OUT:"C:\Users\admin\Documents\уник\3 СЕМ\КПО\курсач\курсач_заново\курсач супер новый\GAA-2024\Debug\StaticLib1.lib" /NOLOGO /MACHINE:X86 Debug\pch.obj
+         Debug\StaticLib1.obj
+         StaticLib1.vcxproj -> C:\Users\admin\Documents\уник\3 СЕМ\КПО\курсач\курсач_заново\курсач супер новый\GAA-2024\Debug\StaticLib1.lib
+       FinalizeBuildStatus:
+         Файл "Debug\StaticLib1.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\StaticLib1.tlog\StaticLib1.lastbuildstate".
+     1>Сборка проекта "C:\Users\admin\Documents\уник\3 СЕМ\КПО\курсач\курсач_заново\курсач супер новый\GAA-2024\StaticLib1\StaticLib1.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.04
