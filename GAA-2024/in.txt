@@ -1,0 +1,86 @@
+bint function count(bint x, bint y)
+{
+	goutlaw bint z;
+	z = x * (x + y);
+	print "Result 1:   ";
+	print z;
+	return z;
+};
+bint function woo(bint x, bint y)
+{
+	goutlaw bint z;
+	z = x / (x * y);
+	print "Result 2:   ";
+	print z;
+	return z;
+};
+bint function boo(string a,string b)
+{
+    goutlaw bint k;
+	k = mystrlen(a) + 5;
+    print "Lenght + 5:          ";
+	print k;
+	goutlaw string str = "pooooop";
+	goutlaw string st;
+	st = strcopy(str);
+    print "String copy:";
+	print str;
+	return k;
+};
+bint function subt(bint x, bint y)
+{
+    goutlaw bint result;
+    result = x - y;
+    print "Subtraction Result:  ";
+    print result;
+    return result;
+};
+bint function gcd(bint a, bint b)
+{
+ print "GCD: ";
+condition:  b ~ 9  #
+	cycle{
+        goutlaw bint temp = b;
+        b = a / b;
+        a = temp;
+		 print a;
+    }#
+  
+    return a;
+};
+main
+{
+goutlaw osymb s;
+s = 'o';
+goutlaw tbool l;
+l = true;
+goutlaw bint x;
+x = 10;
+goutlaw bint y = 01011;
+goutlaw bint t = 01011;
+goutlaw bint w;
+w = t + y;
+print w;
+goutlaw bint h = 0xFF;
+goutlaw bint g = 1001;
+goutlaw bint z;
+goutlaw string sa = "345";
+goutlaw string sb = "pppppppp";
+goutlaw bint num;
+num = mystrlen(sb);
+print "Lenght sb:";
+print num;
+z = count(x,y);
+boo(sa,sb);
+woo(x,g);
+subt(x, y);
+gcd(h,g);
+goutlaw bint ab = 125;
+condition: ab > 1 #
+cycle {
+	print ab;
+	print ";";
+	ab = ab / 3;
+}#
+print ab;
+};
